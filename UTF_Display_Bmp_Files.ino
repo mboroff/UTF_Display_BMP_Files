@@ -222,3 +222,4 @@ byte decToBcd(byte val){
 // Convert normal decimal numbers to binary coded decimal
   return ( (val/10*16) + (val%10) );
 }
+
