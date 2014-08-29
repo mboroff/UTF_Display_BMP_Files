@@ -8,7 +8,7 @@
 // of 320x240 pixels.
 //
 // This program requires the UTFT library.
-//
+// The bmpDraw function was originally written by Limor Fried/Ladyada for Adafruit Industries.
 
 #include <UTFT.h>
 #include <SPI.h>
@@ -56,6 +56,7 @@ void loop() {
 }
 
 // Adafruit display bmp routines
+// UTF modifications to graphic function calls
 
 // This function opens a Windows Bitmap (BMP) file and
 // displays it at the given coordinates.  It's sped up
